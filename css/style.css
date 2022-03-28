@@ -1,0 +1,165 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.content {
+  display: flex;
+}
+
+.content .left_column {
+  width: 900px;
+  margin-right: 20px;
+}
+
+.content .right_column {
+  padding: 20px;
+  background-color: rgb(237, 230, 230);
+}
+
+
+/* body nav,
+body header,
+body article,
+body aside,
+body section,
+body footer {
+  border: 3px dashed #d4f7d9 !important;
+  margin: 5px !important;
+  padding: 5px !important;
+} */
+
+
+main, header, footer {
+  width: 1224px;
+  margin: 0 auto;
+}
+
+header nav ul,
+footer nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li,
+footer nav ul li {
+  display: inline;
+}
+
+footer {
+  padding: 20px 0;
+  border-top: 2px solid #cecece;
+}
+
+footer .copyright {
+  font-size: 0.8em;
+  color: #cecece;
+}
+
+footer a {
+  color: #84cdf2;
+}
+
+article .meta {
+  margin-bottom: 30px;
+  font-size: 0.9em;
+  color: #a3a0a0;
+}
+
+article .meta span {
+  color: #29627e;
+}
+
+article aside {
+  width: 40%;
+  padding-left: .5rem;
+  margin-left: .5rem;
+  float: right;
+  box-shadow: inset 5px 0 5px -5px #29627e;
+  font-style: italic;
+  color: #29627e;
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 1em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+
+article aside > p {
+  margin: .5rem;
+}
+
+article .summary {
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #a3a0a0;
+  color: #a3a0a0;
+}
+
+article section span {
+  font-weight: bold;
+  color:rgb(81, 178, 238);
+}
+
+.adv {
+  padding: 40px;
+  color:#ffffff;
+  background-color: #5a4dc6;
+  border-radius: 5px;
+}
+
+.adv h1 {
+  margin-top: 0;
+  font-size: 1.5em;
+}
+
+.adv p {
+  margin-bottom: 40px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: 1px solid #ffffff;
+  text-decoration: none;
+}
+
+.btn-green {
+  background-color: #4eb543;
+  border-color: #4eb543;
+  color: #ffffff;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+ }
+
+ .page_sections section {
+   height: 100vh;
+   margin: 30px 0;
+   padding-top: 30px;
+ }
+
+ .page_sections header {
+   position: sticky;
+   top:20px;
+ }
